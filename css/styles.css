@@ -1,0 +1,50 @@
+body {
+  color: #2d3c49;
+  font-family: 'PT Sans', sans-serif;
+}
+
+img, object, embed {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+.name {
+  margin-top: 0;
+}
+
+.name, .title, .projectTitle {
+  margin-bottom: 0;
+}
+
+.featuresTitle {
+  color: #7d97ad;
+  padding-left: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.title, .projectTitle, .projectAddress {
+  margin-top: 0.2em;
+}
+
+.projectTitle, .projectAddress, .headerBoxTwo, .headerBoxThree {
+  text-align: center;
+  align-content: center;
+  width: 100%;
+}
+
+.projectBox {
+  align-content: center;
+}
